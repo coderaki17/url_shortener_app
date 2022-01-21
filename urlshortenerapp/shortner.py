@@ -2,7 +2,7 @@ import random
 import string
 
 
-class shortener:
+class shortner:
     token_size = 5
 
 

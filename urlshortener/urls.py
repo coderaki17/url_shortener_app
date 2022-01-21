@@ -19,7 +19,8 @@ from urlshortenerapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.Make, name="Make new")
+    path('<str:token>', views.Home, name ='Home'),
+    path('', views.Make, name="Make new"),
     
 
 ]

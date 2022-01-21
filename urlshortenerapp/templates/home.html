@@ -1,1 +1,7 @@
-<h1>Hello</h1>
+<form method="post"> {% csrf_token %}
+    {{ form.as_p }}
+    <button type="Submit" name="button">Save</button>
+
+</form>
+
+<h1>{{ a }}</h1>
